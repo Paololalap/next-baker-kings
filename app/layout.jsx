@@ -1,4 +1,4 @@
-import "@//styles/globals.css";
+import "@/styles/globals.css";
 import Header from "@/components/header/Header";
 import { inter } from "@/fonts/fonts";
 import { cn } from "@/lib/utils";
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body
         className={cn(
           inter.className,
-          "w-screen min-h-screen overflow-x-hidden"
+          "min-w-fit min-h-screen overflow-x-hidden w-screen"
         )}
       >
         <Header />
