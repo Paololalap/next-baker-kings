@@ -3,13 +3,13 @@
   "libraries": [
     {
       "name": "lucide-icons",
-      "directory": "./other/lucide/",
+      "directory": "./other/svg/lucide/",
       "postinstall": [],
       "transformers": []
     },
     {
       "name": "tabler-icons",
-      "directory": "./other/tabler/",
+      "directory": "./other/svg/tabler/",
       "postinstall": [],
       "transformers": []
     }
