@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="h-[54px] bg-[#F8D0A1]">
-      <nav className="flex items-center justify-between h-full max-w-screen-md mx-auto overflow-hidden md:px-0">
+      <nav className="flex items-center justify-between h-full max-w-screen-md px-2 mx-auto overflow-hidden md:px-0">
         <div className="relative h-[37px] w-[70px] shrink-0">
           <Link href="/">
             <Image
@@ -17,7 +17,7 @@ export default function Header() {
             />
           </Link>
         </div>
-        <ul className="flex items-center justify-between flex-1 h-full max-w-sm font-bold">
+        <ul className="flex items-center justify-between h-full font-bold">
           <li>
             <NavLink href="/">Home</NavLink>
           </li>
