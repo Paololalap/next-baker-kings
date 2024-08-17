@@ -8,8 +8,8 @@ export default function NavLink({ href, children }) {
   return (
     <Link
       className={cn(
-        "px-3 py-5 whitespace-nowrap hover:bg-[#5c5822] hover:text-white",
-        pathname === href && "bg-[#5c5822] text-white",
+        "whitespace-nowrap px-3 py-5 hover:bg-primary-foreground hover:text-white",
+        pathname === href && "bg-primary-foreground text-white",
       )}
       href={href}
     >

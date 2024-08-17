@@ -1,7 +1,7 @@
-import "@/styles/globals.css";
 import Header from "@/components/header/Header";
 import { inter } from "@/fonts/fonts";
 import { cn } from "@/lib/utils";
+import "@/styles/globals.css";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,12 +10,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <body
         className={cn(
-          inter.className,
-          "min-w-fit min-h-screen overflow-x-hidden w-screen"
+          inter.variable,
+          "min-h-screen min-w-fit overflow-x-hidden font-inter",
         )}
+        style={{ width: "calc(100vw - 12px)" }}
       >
         <Header />
         {children}
@@ -23,4 +24,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
